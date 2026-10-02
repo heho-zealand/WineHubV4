@@ -1,1 +1,8 @@
-namespace WineHub.Api.Models; public class Product { public int Id {get;set;} public string Name {get;set;} = ""; public decimal Price {get;set;} }
+namespace WineHub.Api.Models;
+
+public class Product
+{
+    public int Id { get; set; }
+    public string Name { get; set; } = string.Empty;
+    public decimal Price { get; set; }
+}

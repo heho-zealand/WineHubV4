@@ -1,1 +1,7 @@
-namespace WineHub.Api.Models; public class Customer { public int Id {get;set;} public string Name {get;set;} = ""; }
+namespace WineHub.Api.Models;
+
+public class Customer
+{
+    public int Id { get; set; }
+    public string Name { get; set; } = string.Empty;
+}
